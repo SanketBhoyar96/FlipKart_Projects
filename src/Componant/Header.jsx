@@ -40,7 +40,8 @@ const Header = () => {
                     <div id='AchorTag'>
                         {/* <a href="">{userName? userName: "Become a Seller"}</a> */}
                         {/* <a href="">Become a Seller</a> */}
-                        <a href="/Products">Products</a>
+                       <button id="CARTButton" onClick={()=>router('/Products')}>Products</button>
+                        {/* <a href="/Products">Products</a> */}
                         <a href="./Cart"><i class="fa-solid fa-cart-shopping fa-lg"></i>Cart</a>
                         <a href="./wishlist"><i class="fa-solid fa-heart fa-lg"></i>Wishlist</a>
                     </div>
