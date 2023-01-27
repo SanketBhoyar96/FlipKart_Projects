@@ -108,6 +108,15 @@ header {
     cursor: pointer;
 
 }
+/* #AchorTag>button{
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+} */
 #AchorTag>a:hover{
   background-color: rgb(13, 186, 192);
   color: rgb(17, 8, 8);
