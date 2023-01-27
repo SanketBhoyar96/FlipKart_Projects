@@ -3,9 +3,11 @@ import React, { useEffect } from 'react'
 import { useState } from 'react'
 import "./Header.css"
 import {toast} from "react-hot-toast"
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
     const[userName,setUserName]=useState();
+    const router=useNavigate();
 // ----------------------------------tarnary operator use--------------------------------------
      useEffect(()=>{
         const dbUser = JSON.parse(localStorage.getItem("userData"));
