@@ -1,0 +1,145 @@
+
+body{
+    /* background-color: rgb(165, 159, 137); */
+}
+#ChildContainer{
+    width: 100%;
+    /* border: 1px solid black; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+
+}
+#mainkeyproducts{
+    width: 22%;
+    /* background-color: #a19b92; */
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#productsAll{
+    padding: 10px;
+}
+#productsAll>div>img{
+ /* width: 230px; */
+ width: 90%;
+ height: 220px;
+ margin: 10px;
+ /* height: auto; */
+}
+#productsAll>div>img:hover{
+ transform: scale(0.9);
+}
+
+/* ---------------------------------------------- */
+.title{
+    text-align: center;
+  width: 100%;
+  font-size: 13px;
+  /* line-height: 20px; */
+ 
+}
+.year{
+    text-align: center;
+    /* line-height: 20px; */
+  /* width: 95%;
+  font-size: 15px; */
+}
+.Runtime{
+    text-align: center;
+    /* line-height: 20px; */
+    margin: 10px;
+  /* width: 95%;
+  font-size: 15px; */
+}
+.Runtime>p>span{
+  color: #f10909;
+  font-weight: 700;
+}
+.year>p>span{
+  color: #f12a07;
+  font-weight: 700;
+}
+.buttion{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.buttion>button{
+    margin-right: 10px;
+    font-size: 12px;
+    border: 1px solid #c10b0b;
+    padding: 11px;
+    /* width: 120px; */
+    width: 100%;
+    color: white;
+    background-color:rgb(223, 12, 79);;
+    border-radius: 10px;
+    font-weight: 500;
+    /* position:relative; */
+}
+.buttion>button:hover{
+    /* background-color: #eb4807; */
+    background-color: #c10b0b;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.08);
+}
+.btn{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 12px;
+    border: 1px solid #c10b0b;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    background-color: #c10b0b;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-left: 600px;
+}
+.btn:hover{
+    background-color: #0484c0;
+    color: black;
+}
+#ProCart>button:hover{
+    background-color: #0484c0;
+    color: black;
+    border: 1px solid #0484c0;
+}
+#CARTButton{
+    font-size: 12px;
+    border: 1px solid #c10b0b;
+    padding: 11px;
+    /* width: 120px; */
+    width: 10%;
+    color: white;
+    background-color:rgb(223, 12, 79);;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-left: 45%;
+    margin-bottom: 10px;
+
+}
+.CartContainer>button:hover{
+    background-color: #0484c0;
+    color: black;
+    border: 1px solid #0484c0;
+}
+.CartContainer>button{
+    margin: 10px;
+    font-size: 12px;
+    border: 1px solid #c10b0b;
+    padding: 11px;
+    /* width: 120px; */
+    width: 10%;
+    color: white;
+    background-color:rgb(223, 12, 79);;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-left: 45%;
+
+}

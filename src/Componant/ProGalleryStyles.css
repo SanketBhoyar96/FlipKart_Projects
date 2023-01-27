@@ -1,0 +1,96 @@
+
+body{
+    background-color: rgb(241, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* h1{
+    color: red;
+} */
+#GalleryFlex{
+    margin-top: 20px;
+    width: 100%;
+    /* height: 330px; */
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+#GalleryFlex>div{
+   /* border: 1px solid black; */
+   height: 300px;
+   width: 100%;
+   /* margin: auto; */
+   /* margin: 10px; */
+}
+#GalleryFlex>div>img{
+
+
+}
+.backURL{
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+    width: 100%;
+    height: 70px;
+    /* background-position:0px 0px  bottom; */
+      background-position: 0px 180px, right 3em bottom 2em;
+    background-repeat: no-repeat;
+  
+}
+.backURL>div{
+    /* border: 1px solid black; */
+    width: 60%;
+    /* margin: auto; */
+    height: 200px;
+        margin-top: 60px;
+}
+.boxContent{
+    text-align: center;
+    margin: auto;
+    
+}
+.boxContent>h2{
+    font-weight: 100;
+    
+}
+.boxContent>a>button{
+    cursor: pointer;
+    margin-top: 18px;
+   padding: 8px;
+   background-color: #2874f0;
+   color: white;
+   font-weight: 600;
+   border: none;
+   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+   
+}
+.imgGallery{
+    margin: auto;
+    width: 80%;
+    /* margin-top: 20px; */
+}
+.imgGallery>a>img:hover{
+    transform: scale(0.9);
+}
+.ContentGallery{
+    width: 70%;
+    margin: auto;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+/* #TopCamera{
+    margin-top: 20px;
+   
+} */
+.ContentGallery>h4{
+    font-size: 15px;
+    /* font-size: 14px; */
+    font-weight: 500;
+}
+.ContentGallery>h5{
+   color: #388e3c;
+    font-weight: 500;
+}
+.ContentGallery>h6{
+   color: #a9a9a9;
+    font-weight: 500;
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FlipKart-Project/static/css/main.a7dc5b78.css",
+    "main.js": "/FlipKart-Project/static/js/main.9387c1c1.js",
+    "static/js/787.d3befce1.chunk.js": "/FlipKart-Project/static/js/787.d3befce1.chunk.js",
+    "index.html": "/FlipKart-Project/index.html",
+    "main.a7dc5b78.css.map": "/FlipKart-Project/static/css/main.a7dc5b78.css.map",
+    "main.9387c1c1.js.map": "/FlipKart-Project/static/js/main.9387c1c1.js.map",
+    "787.d3befce1.chunk.js.map": "/FlipKart-Project/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7dc5b78.css",
+    "static/js/main.9387c1c1.js"
+  ]
+}
