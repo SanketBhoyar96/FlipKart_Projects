@@ -10,6 +10,7 @@ body{
     /* text-decoration: solid; */
     background-color: tomato;
     /* position: sticky; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .heading:hover{
     color: rgb(181, 184, 19);

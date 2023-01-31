@@ -20,8 +20,6 @@ function App() {
      <Route path="/cart" element={<Cart/>} />
      <Route path="/wishlist" element={<Wishlist/>}/>
      <Route path="/footer" element={<Footer/>}/>
-     
-
     </Routes>
  </BrowserRouter>
     </div>
