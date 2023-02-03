@@ -71,7 +71,7 @@ const Register = () => {
         <input style={{padding:"10px",width:"100%"}}  type="email" name='email' placeholder='Email'  onChange={handleChange} /><br />
         <label style={{fontSize:"20px"}} >Password</label><br />
         <input style={{padding:"10px",width:"100%"}}  type="password" name='password' placeholder=' Password'  onChange={handleChange} /><br />
-        <input style={{padding:"8px",width:"40%",margin:"10px",marginLeft:"60px",color:"white",backgroundColor:"#cc4600",border:"1px solid #cc4600"}} type="submit" /><br />
+        <input style={{cursor:"pointer", padding:"8px",width:"40%",margin:"10px",marginLeft:"60px",color:"white",backgroundColor:"#cc4600",border:"1px solid #cc4600"}} type="submit" /><br />
        </form>
     </div>
   )

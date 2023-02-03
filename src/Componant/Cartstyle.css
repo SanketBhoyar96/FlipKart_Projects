@@ -203,7 +203,7 @@ transform: scale(1.09);
     border-bottom: 1px solid #f0f0f0;
 }
 .amountValue{
-    margin-right: 180px;
+    /* margin-right: 180px; */
 }
 #Formprice>h3{
     padding: 10px;

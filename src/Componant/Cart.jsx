@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import { toast } from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
+import { json, useNavigate } from 'react-router-dom';
 import CartHeader from './CartHeader';
 import "./Cartstyle.css";
 import Footer from './Footer';
@@ -10,6 +10,26 @@ const Cart = () => {
   const [cartProducts, setCartProducts] = useState();
   const router = useNavigate();
 
+  // -----------------------PriceProducts------------------------------
+  // const[Total,settotal]=useState(0);
+
+  // let cartArray=localStorage.getItem("cartProducts");
+
+  // cartArray=JSON.parse(cartArray);
+
+  // const total=cartArray.reduce((prev,cur)=>(cur.price * cur.id) + prev, 0);
+  // settotal(total);
+
+  const [total, setTotal] = useState();    
+  let cartArray = JSON.parse(localStorage.getItem("cartProducts"));   
+  // cartArray = JSON.parse(cartArray);   
+  useEffect(() => {     
+    setTotal(      
+       cartArray.reduce((prev, cur) => (cur.price ) + prev,0)    
+        )},[cartArray]);
+
+
+  // -------------------------------------------------------------------------------
   useEffect(() => {
     const cartProFromStorage = JSON.parse(localStorage.getItem("cartProducts"));
 
@@ -127,8 +147,10 @@ const Cart = () => {
               </div>
             </div>
             <div className='TotalAmount'>
-              <span className='amountValue'>Total Amount</span>
-              <span>&#8377;56.99</span>
+              <span className='amountValue'>Total Amount
+              {/* <span>&#8377;56.99</span> */}
+              <span style={{marginLeft:"140px",color:"red"}}>&#8377;{total}</span>
+              </span>
             </div>
             <h3>You will save ₹100 on this order</h3>
           </div>

@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import './loginstyle.css';
 
 const Login = () => {
   const [userLogInData, setUserLogInData] = useState({ email: '', password: '' });
@@ -61,8 +62,8 @@ return (
       <input style={{ padding: "10px", width: "100%" }} type="email" placeholder='Email' name='email' onChange={handleChange} /><br /><br />
       <label style={{ fontSize: "20px" }} >Password</label><br />
       <input style={{ padding: "10px", width: "100%" }} type="password" placeholder=' Password' name='password' onChange={handleChange} /><br /><br />
-      <input style={{ padding: "8px", width: "40%", margin: "10px", marginLeft: "60px", color: "white", backgroundColor: "#cc4600", border: "1px solid #cc4600" }} type="submit" /><br />
-      <span onClick={()=>{router('/Register')}} style={{ color: "white", textDecoration: "none", marginLeft: "20px", fontWeight: "500", color: "blue" }}>Not User? Register here</span>
+      <input style={{cursor:"pointer", padding: "8px", width: "40%", margin: "10px", marginLeft: "60px", color: "white", backgroundColor: "#cc4600", border: "1px solid #cc4600" }} type="submit" /><br />
+      <span onClick={()=>{router('/Register')}} style={{cursor:"pointer", color: "white", textDecoration: "none", marginLeft: "20px", fontWeight: "500", color: "blue" }}>Not User? Register here</span>
     </form>
   </div>
 )
