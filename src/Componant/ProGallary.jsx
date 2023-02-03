@@ -117,7 +117,7 @@ const ProGallary = () => {
 
           </div><br />
           {/* ------------------------------------- */}
-          <div id="GalleryFlex">
+          <div id="GalleryFlex" onClick={()=>router('/Products')}>
             <div className="backURL">
               <div className="boxContent">
                 <h2>Pick Your Style</h2>
@@ -126,7 +126,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-                <img src="https://rukminim1.flixcart.com/flap/200/200/image/83ed05de14e2176d.jpg?q=70" alt="" />
+                <img  src="https://rukminim1.flixcart.com/flap/200/200/image/83ed05de14e2176d.jpg?q=70" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>  Top Trending Styles!</h4>
