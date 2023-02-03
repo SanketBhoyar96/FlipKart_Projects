@@ -21,7 +21,7 @@ const Header = () => {
     localStorage.removeItem('isUserLogged');
     // localStorage.removeItem('cartProducts');
     setUserName("");
-    toast.success("Logout SuccessFul");
+    toast.success("Logout successful Done !!");
     }
     return (
         <div>
