@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
-import './loginstyle.css';
 
 const Login = () => {
   const [userLogInData, setUserLogInData] = useState({ email: '', password: '' });
