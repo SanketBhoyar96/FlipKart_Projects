@@ -51,7 +51,7 @@ body{
     font-weight: 100;
     
 }
-.boxContent>a>button{
+.boxContent>button{
     cursor: pointer;
     margin-top: 18px;
    padding: 8px;
@@ -67,7 +67,7 @@ body{
     width: 80%;
     /* margin-top: 20px; */
 }
-.imgGallery>a>img:hover{
+.imgGallery>img:hover{
     transform: scale(0.9);
 }
 .ContentGallery{
