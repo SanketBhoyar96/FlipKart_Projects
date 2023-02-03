@@ -62,7 +62,7 @@ return (
       <label style={{ fontSize: "20px" }} >Password</label><br />
       <input style={{ padding: "10px", width: "100%" }} type="password" placeholder=' Password' name='password' onChange={handleChange} /><br /><br />
       <input style={{ padding: "8px", width: "40%", margin: "10px", marginLeft: "60px", color: "white", backgroundColor: "#cc4600", border: "1px solid #cc4600" }} type="submit" /><br />
-      <a href="./Register" style={{ color: "white", textDecoration: "none", marginLeft: "20px", fontWeight: "500", color: "blue" }}>Not User? Register here</a>
+      <a href="" onClick={()=>{router('/Register')}} style={{ color: "white", textDecoration: "none", marginLeft: "20px", fontWeight: "500", color: "blue" }}>Not User? Register here</a>
     </form>
   </div>
 )
