@@ -10,7 +10,6 @@ body{
     /* text-decoration: solid; */
     background-color: tomato;
     /* position: sticky; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .heading:hover{
     color: rgb(181, 184, 19);
@@ -38,6 +37,17 @@ body{
 }
 #mainkeyproducts{
     width: 22%;
+    /* background-color: #a19b92; */
+    background-color: #fff;
+    /* height: 500px; */
+    /* border: 1px solid rgb(121, 109, 109); */
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#mainkeyproductsResults{
+    width: 22%;
+    height: 30rem;
     /* background-color: #a19b92; */
     background-color: #fff;
     /* height: 500px; */

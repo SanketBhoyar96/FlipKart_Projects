@@ -16,23 +16,6 @@ const Register = () => {
       }
     },[]);
 
-    // useEffect(()=>{
-        // console.log("userData updated !");
-
-    //     if(userData){        
-    //       var registeredUsers = JSON.parse(localStorage.getItem("userData")) || [];
-    //         registeredUsers.push(userData);
-    //         console.log(registeredUsers,"RegisterUser here");
-    //         localStorage.setItem("userData", JSON.stringify(registeredUsers));
-    //         setUserData();
-    //         router('/login')
-    //         toast.success("submitted");
-    //         // const toStoreUserData= JSON.stringify(userdata);
-    //         // localStorage.setItem("userData",toStoreUserData);
-    //         // toast.error("submitted");
-    //     }
-    // },[userData]);
-
    function submitHandle(e){
     e.preventDefault();
     if(userData.name && userData.email && userData.password){

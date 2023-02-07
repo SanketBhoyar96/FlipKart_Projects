@@ -20,9 +20,9 @@ const Header = () => {
                         <a href="./login"><button style={{margin:"10px"}}>Login</button></a>
                     </div> */}
                     <div id='AchorTag'>
-                        <span onClick={()=>router('/products')} href="/Products">Products</span>
-                        <span onClick={()=>router('/cart')} href="./Cart"><i class="fa-solid fa-cart-shopping fa-lg"></i>Cart</span>
-                        <span onClick={()=>router('/wishlist')}><i class="fa-solid fa-heart fa-lg"></i>Wishlist</span>
+                        <span onClick={()=>router('/products')} href="/Products"><i class="fa-solid fa-gift" style={{marginRight:"8px"}}></i>Products</span>
+                        <span onClick={()=>router('/cart')} href="./Cart"><i class="fa-solid fa-cart-shopping fa-lg" style={{marginRight:"8px"}}></i>Cart</span>
+                        <span onClick={()=>router('/wishlist')}><i class="fa-solid fa-heart fa-lg" style={{marginRight:"8px"}}></i>Wishlist</span>
                     </div>
                 </nav>
             </header>
