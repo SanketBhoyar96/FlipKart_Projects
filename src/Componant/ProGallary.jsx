@@ -8,6 +8,18 @@ const ProGallary = () => {
   const router=useNavigate();
   return (
     <div>
+      {/* -------------------------------HomeBanner--------------------------------- */}
+      {/* <div className="container">
+        <div className="wrapper" onClick={()=>router('/Products')}>
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/440a28c053a889e9.jpg?q=50" alt="" />
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/60c91b93563e79c6.jpeg?q=50" alt="" />
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/1df65c4c96b9665e.jpeg?q=50" alt="" />
+          <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/b656a7f4-4688-4997-bb7c-54b78793981e1658752386588-Western-Wear_Desk.jpg" alt="" />
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/c9b449c43b43ea40.jpg?q=50" alt="" />
+          <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/28/6107d28b-2bcb-44e6-9743-655b54550b8f1659020199598-Workwear_Desk--1-.jpg" alt="" />
+        </div>
+        </div> */}
+      {/* ----------------------------------------------------------- */}
       {/* <h1>Gallery</h1> */}
 
       <div id="ProGalleryAll">
@@ -21,7 +33,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-              <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/kgsb1jk0/monitor/f/d/z/vg27aql1a-tuf-vg27aql1a-asus-original-imafwyeptd8ysndr.jpeg?q=70" alt="" />
+              <img  onClick={()=>router('/Products')} src="./ProGallery/Eelectronics011.jpeg" alt="" />
             
               </div>
               <div className="ContentGallery">
@@ -33,7 +45,7 @@ const ProGallary = () => {
             <div>
               <div className="imgGallery">
 
-                <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/kynb6vk0/monitor/1/n/s/lf22t354fhwxxl-full-hd-22-lf22t354fhwxxl-samsung-original-imagats2rjbg9uhv.jpeg?q=70" alt="" />
+                <img  onClick={()=>router('/Products')} src="./ProGallery/Eelectronics02.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>Monitor</h4>
@@ -43,7 +55,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-               <img  onClick={()=>router('/Products')} id="TopCamera" src="https://rukminim1.flixcart.com/image/200/200/l5jxt3k0/dslr-camera/m/n/a/-original-imagg7hsggshhwbz.jpeg?q=70" alt="" />
+               <img  onClick={()=>router('/Products')} id="TopCamera" src="./ProGallery/Eelectronics03.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>Top Mirrorless Cameras</h4>
@@ -53,7 +65,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-              <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70" alt="" />
+              <img  onClick={()=>router('/Products')} src="./ProGallery/Eelectronics04.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>Monitor</h4>
@@ -74,7 +86,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-               <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/kz5vwy80/helmet/o/4/k/-original-imagb8azfdthjhqr.jpeg?q=70" alt="" />
+               <img  onClick={()=>router('/Products')} src="./ProGallery/sports01.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4> Rider Helmets</h4>
@@ -86,7 +98,7 @@ const ProGallary = () => {
             <div>
               <div className="imgGallery">
 
-              <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/k0plpjk0/remote-control-toy/9/g/k/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg?q=70" alt="" />
+              <img  onClick={()=>router('/Products')} src="./ProGallery/sports02.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4> Remote Control Toys</h4>
@@ -96,7 +108,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-               <img  onClick={()=>router('/Products')} id="TopCamera" src="https://rukminim1.flixcart.com/image/200/200/kjom6q80-0/microphone-accessory/n/i/0/3-5mm-clip-microphone-for-youtube-collar-mic-for-voice-recording-original-imafz7ykspmdv3vw.jpeg?q=70" alt="" />
+               <img  onClick={()=>router('/Products')} id="TopCamera" src="./ProGallery/sports03.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>    Microphones</h4>
@@ -106,7 +118,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-               <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/krtjgcw0/headphone/d/9/g/au-mh501-maono-original-imag5j35rffkwpac.jpeg?q=70" alt="" />
+               <img  onClick={()=>router('/Products')} src="./ProGallery/sports04.jpeg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>   Studio Headphones</h4>
@@ -126,7 +138,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-                <img  onClick={()=>router('/Products')}  src="https://rukminim1.flixcart.com/flap/200/200/image/83ed05de14e2176d.jpg?q=70" alt="" />
+                <img  onClick={()=>router('/Products')}  src="./ProGallery/styles01.jpg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>  Top Trending Styles!</h4>
@@ -136,7 +148,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-               <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/k2z1t3k0/jacket/z/v/x/m-9298233-mast-harbour-original-imafm78vbfvdzph7.jpeg?q=70" alt="" />
+               <img  onClick={()=>router('/Products')} src="./ProGallery/styles02.jpg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4> Sweatshirts</h4>
@@ -146,7 +158,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-               <img  onClick={()=>router('/Products')} id="TopCamera" src="https://rukminim1.flixcart.com/image/200/200/kb9ou4w0/shoe/j/g/6/11391306-40-u-s-polo-assn-white-original-imafsnetwnyzu8x2.jpeg?q=70" alt="" />
+               <img  onClick={()=>router('/Products')} id="TopCamera" src="./ProGallery/styles03.jpg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4> U.S. Polo Assn</h4>
@@ -156,7 +168,7 @@ const ProGallary = () => {
             </div>
             <div>
               <div className="imgGallery">
-              <img  onClick={()=>router('/Products')} src="https://rukminim1.flixcart.com/image/200/200/jvmpci80/track-pant/g/w/j/s-7224489-hrx-by-hrithik-roshan-original-imafghfrgedw3zq8.jpeg?q=70" alt="" />
+              <img  onClick={()=>router('/Products')} src="./ProGallery/styles04.jpg" alt="" />
               </div>
               <div className="ContentGallery">
                 <h4>Nivia, Van Heusen Flex..</h4>

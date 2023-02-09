@@ -92,7 +92,7 @@ const Footer = () => {
                         <a href="">© 2007-2023 Flipkart.com</a>
                         </div>
                         <div>
-                        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg" alt="" />
+                        <img src="./ProGallery/footerpyament.svg" alt="" />
                         </div>
                      </div>
                 </div>
